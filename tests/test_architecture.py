@@ -1,2 +1,3 @@
-def test_installed_yaus():
+def test_installable_states():
     import yaus
+    import shortener
