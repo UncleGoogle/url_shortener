@@ -42,6 +42,10 @@ py==1.11.0
 pyparsing==3.0.9
     # via packaging
 pytest==7.1.0
+    # via
+    #   pytest-django
+    #   yaus
+pytest-django==4.5.2
     # via yaus
 pytz==2022.1
     # via

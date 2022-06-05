@@ -15,6 +15,7 @@ setup(
         "dev": [
             "pip-tools==6.6.2",
             "pytest==7.1.0",
+            "pytest-django==4.5.2",
         ]
     },
 )
