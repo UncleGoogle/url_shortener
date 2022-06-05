@@ -1,9 +1,10 @@
 from django.urls import path
 
 
-from . import views
+from .views import ResolverView, ShortenerView
 
 
 urlpatterns = [
-    path('^', views.root, name="root")
+    path('', ShortenerView.as_view()),
+    path('<str:alias>', ResolverView.as_view()),
 ]
