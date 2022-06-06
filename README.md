@@ -27,7 +27,7 @@ _Toy DRF project for simple shortening urls API_
 - `pip install -r requirements/dev.txt`
 
 ### Test
-- `pytest`
+- `python -m pytest`
 
 ### Add dependencies
 
