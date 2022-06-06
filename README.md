@@ -17,6 +17,8 @@ _Toy DRF project for simple shortening urls API_
 
 ## Installation
 
+Recommended Python 3.8 or higher
+
 - `pip install -r requirements/app.txt`
 - `python src/manage.py migrate`
 - `python src/manage.py runserver`
