@@ -6,7 +6,7 @@ _Toy DRF project for simple shortening urls API_
 ## Usage by example
 
 - `curl -d '{"url":"https://www.xxx.com", "alias":"xxx"}' -H "Content-Type: application/json" -X POST http://localhost:8000/shorten/`
-- http://localhost:8000/shorten/xxx returns
+- `curl -H "Accept: application/json" http://localhost:8000/shorten/xxx`
 
 ```
 {
@@ -18,6 +18,7 @@ _Toy DRF project for simple shortening urls API_
 ## Installation
 
 - `pip install -r requirements/app.txt`
+- `python src/manage.py migrate`
 - `python src/manage.py runserver`
 
 ## Developement
